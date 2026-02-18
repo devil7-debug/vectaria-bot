@@ -33,7 +33,7 @@ async function startBot() {
 
     await page.evaluate(() => {
         // --- CONFIGURATION ---
-        const OWNER_NAME = "YourUsernameHere"; // <--- CHANGE THIS TO YOUR NAME!
+        const OWNER_NAME = "devilfox"; // <--- CHANGE THIS TO YOUR NAME!
         const REWARD_AMOUNT = 50; 
         
         const ClientKeys = { CHAT: 0, TIME_STEP: 59, ACTION_WITH_PLAYER: 11, ANNOUNCE: 72, COIN_TRANSFER: 62 };
@@ -116,3 +116,4 @@ async function startBot() {
 }
 
 startBot();
+

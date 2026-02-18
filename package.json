@@ -1,0 +1,13 @@
+{
+  "name": "vectaria-bot",
+  "version": "1.0.0",
+  "description": "Vectaria 24/7 Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "http": "0.0.1-security"
+  }
+}
